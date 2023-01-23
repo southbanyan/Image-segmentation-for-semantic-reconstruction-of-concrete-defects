@@ -1,4 +1,4 @@
-### Concrete-Cracks-and-Spalling-Segmentation-using-U-Net
+# Concrete-Cracks-and-Spalling-Segmentation-using-U-Net
 This code is used for image segmentation of concrete cracks and spalling. The U-Net network structure is built on tensorflow. 
 The images used to train the network were taken from PEER Hub Imagenet, which can be found at https://apps.peer.berkeley.edu/phi-net/
 ## Images Annotation
