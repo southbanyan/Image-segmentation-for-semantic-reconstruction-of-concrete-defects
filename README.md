@@ -5,7 +5,7 @@ The images used to train the network were taken from PEER Hub Imagenet, which ca
 ## Images Annotation
 The training images were annotated using the image annotation tool __labelme__. Then, the annotated dataset was converted to PASCAL VOC format using a conversion tool. Detailed information can be found on this repository: https://github.com/wkentaro/labelme
 ## Getting Started
-[train_val_split.ipynb](): This notebook is used to split the training and validation datasets and generate a text file requested under the VOC format. In this project, 80% of the images is used as the training dataset, while 20% as the validation datasets. 
+[train_val_split.ipynb](https://github.com/southbanyan/Concrete-Cracks-and-Spalling-Segmentation-using-U-Net/blob/main/train_val_split.ipynb): This notebook is used to split the training and validation datasets and generate a text file requested under the VOC format. In this project, 80% of the images is used as the training dataset, while 20% as the validation datasets. 
 
 [image_segmentation_using_unet.ipynb](https://github.com/southbanyan/Concrete-Cracks-and-Spalling-Segmentation-using-U-Net/blob/main/image_segmentation_using_unet.ipynb): This notebook implements the segmentation of concrete cracks and spalling. It contains several functions such as image pre-processing, data augmentation, results prediction, etc. 
 
