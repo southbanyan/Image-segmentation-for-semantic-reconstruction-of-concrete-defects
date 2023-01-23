@@ -9,6 +9,6 @@ The training images were annotated using the image annotation tool __labelme__. 
 
 [image_segmentation_using_unet.ipynb](): This notebook implements the segmentation of concrete cracks and spalling. It contains several functions such as image pre-processing, data augmentation, results prediction, etc. 
 
-[Convexhull_Contours.ipynb](): This notebook provides a new way of determining damage location. The predicted image is cut into smaller ones and convex hull detection is performed on them. After this, the small images are merged together to locate the damage. Finally, the damage contour coordinates are imported into the BIM model to detect and locate the damage to the building strcture. 
+[Convexhull_Contours.ipynb](https://github.com/southbanyan/Concrete-Cracks-and-Spalling-Segmentation-using-U-Net/blob/main/Convexhull_Contours.ipynb): This notebook provides a new way of determining damage location. The predicted image is cut into smaller ones and convex hull detection is performed on them. After this, the small images are merged together to locate the damage. Finally, the damage contour coordinates are imported into the BIM model to detect and locate the damage to the building strcture. 
 ## Validation Results
 After many experiments and tests, the average accuracy rate of validation can reach about __94%__.
