@@ -1,5 +1,5 @@
-# Concrete-Cracks-and-Spalling-Segmentation-using-U-Net
-This code is used for image segmentation of concrete cracks and spalling. The U-Net network structure is built on tensorflow.
+# Image segmentation for semantic reconstruction of concrete defects
+This code is used for image segmentation of concrete cracks and spalling. The U-Net network structure is built on tensorflow. After segmentation, a semantic reconstruction is performed and defects are transferred to BIM object using Industry Foundation Classes (IFC) [Buildingsmart](https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/) and [IfcOpenShell](https://ifcopenshell.org/). 
 
 The images used to train the network were taken from PEER Hub Imagenet, which can be found at https://apps.peer.berkeley.edu/phi-net/
 
